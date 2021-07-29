@@ -1,0 +1,22 @@
+package aula3;
+
+public class Thread {
+public static void main(String[] args) {
+	
+}
+
+}
+
+class GerarPDF implements Runnable {
+	@Override
+	public void run() {
+		System.out.println("Gerar PDF");
+	}  
+}
+
+class Carregamento implements Runnable {
+	@Overrride
+	public void run() {
+		System.out.println("Loading ...");
+	}
+}
